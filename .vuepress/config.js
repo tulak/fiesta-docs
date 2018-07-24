@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Fiesta',
   description: 'Buddy Management System',
+  dest: 'docs/',
   themeConfig: {
   	sidebar: [
 		'/',
