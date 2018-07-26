@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Fiesta',
   description: 'Buddy Management System',
-  dest: 'docs/',
-  base: '/fiesta-docs/',
+  dest: process.env.VUEPRESS_DEST || 'docs/',
+  base: process.env.VUEPRESS_BASE || '/fiesta-docs/',
   themeConfig: {
   	sidebar: [
 		'/',
