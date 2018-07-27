@@ -1,5 +1,5 @@
-fiesta-help:
+fiesta-help: .
 	VUEPRESS_BASE="/help/" VUEPRESS_DEST="fiesta-help/" vuepress build
 
-gh-pages:
+gh-pages: .
 	vuepress build
